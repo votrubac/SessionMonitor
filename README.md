@@ -1,7 +1,7 @@
 # User Session Monitor
 This is a Windows service that kills specified processes for a user when their Windows session is dissconnected.
 
-If a user locks their Windows session, it will kills processes after the configured time interval (unless the user unlocks the session before that).
+If a user locks their Windows session, it will kills processes after the configured grace period (unless the user unlocks the session before that).
 
 ## Installation Instructions
 1. Copy the “SessionMonitor.zip” installation archive to a local folder
